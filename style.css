@@ -79,7 +79,7 @@ header .nav ul li a:hover{
 }
 .section1 .fist2 img{
     max-width: 100%;
-    height: auto;
+    height: 400px;
     width: 400px;
     margin-left: 100px;
 }
@@ -130,8 +130,8 @@ header .nav ul li a:hover{
     margin: 100px auto;
 }
 .section2 img{
-    width: 100%;
-    height: auto;
+    width: 400px;
+    height: 400px;
 }
 .section2 .text2 h5{
     font-weight: 300;
