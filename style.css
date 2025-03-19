@@ -455,8 +455,8 @@ footer .foot a{
 }
  @media ( max-width:768px){
   
-    html, body {
-        width: 100%;
+    html, body{
+        width: 148%;
         overflow-x: hidden;
     }
 
@@ -470,9 +470,9 @@ footer .foot a{
     header .nav ul{
         position: fixed;
         width: 20%;
-        height: 100vh;
+        height: 55vh;
         background: #00b3ff45;
-        top: 54px;
+        top: 87px;
         left: -200%;
         transition: all ease-in-out 0.5s;
         border: 1px solid ;
@@ -492,9 +492,12 @@ footer .foot a{
         height: auto;
         display: block;
     }
-    .section1 .fist1{
-            margin: auto;
-        }
+    
+        
+.section1 .fist1 h3 {
+    margin-top: 90px;
+    }
+
     .section1 .fist1 h1{
         font-size: 30px;
     }
@@ -502,12 +505,15 @@ footer .foot a{
         padding: 10px ;
     }
     .section2{
-        width: 100%;
+        width: 110%;
         height: auto;
     }
+    .section2 div {
+        width: 50%;
+    }
     .section2 .img2 img{
-        height: 250px;
-        width: 250px;
+        height: 280px;
+        width: 360px;
         margin-top: 20px;
     }
     .section2 .text2 h5{
@@ -536,7 +542,7 @@ footer .foot a{
         padding-bottom: 12px;
      }
      .section3{
-        width: 100%;
+        width: 114%;
      }
      .section4{
         width: 100%;
@@ -544,13 +550,13 @@ footer .foot a{
      .section5{
         width: 100%;
      }
-     .section6{
+     .section6 .price{
         width: 100%;
      }
      footer{
-        width: 100%;
-     }html, body {
-        width: 100%;
-        overflow-x: hidden;
- }
+        width:220%;
+     }
+     footer .foot{
+        width: 90%;
+     }
  }
