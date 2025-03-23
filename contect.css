@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color:  white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+} 
+
+header .navlogo{
+    margin: 20px;
+    margin-left: 50px;
+}
+header .nav ul{
+    list-style: none;
+    margin-right: 200px;
+    
+}
+header .nav ul li{
+    float: left;
+    padding: 15px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(42, 40, 40);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+header .nav ul li a:hover{
+    color:rgb(97, 8, 241) ;
+    text-decoration:underline;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px ;
+    color: #000000d6;
+    float: right;
+    line-height: 80px;
+    margin-right:600px ;
+}
+#check{
+    display: none;
+}
+.section1{
+    background: linear-gradient(to left,rgba(89, 154, 246, 0.991) 40%,rgb(60, 109, 244) );
+    width: 100%;
+    height: 310px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+     
+}
+.section1 h1,.link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.section1 h1{
+    padding-bottom: 150px;
+    font-size: 55px;
+    color: white;
+}
+.section1 .link{
+    display: flex;
+}
+.section1 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.648);
+    padding: 5px;
+    font-weight: 300;
+     font-size: 14px;
+}
+.section1 p{
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.836);
+    padding: 5px;
+    font-size: 14px;
+}
+.section1 a:hover{
+    color: white;
+    font-weight: bold;
+}
+.warning{
+    height: 500px ;
+    width: 86%;
+    background-color: rgba(201, 201, 201, 0.648);
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    position: relative;
+}
+.warning .wtext{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.warning .wlogo{
+    position: relative;
+    top: 158px
+}
+.warning .wlogo i{
+    font-size: 50px;
+    color: rgb(107, 107, 107);
+}
+.warning .wtext h1{
+    font-size: 26px;
+    padding-bottom: 2%;
+    color: rgb(107, 107, 107);
+}
+.warning .wtext p{
+    color: rgb(132, 132, 132);
+}
+.contact{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.contact .all .add{
+    display: flex;
+}
+.contact .all .add i{
+    padding: 30px;
+    font-size: 25px;
+    color: rgba(0, 166, 255, 0.651);
+
+}
+.contact .all .add .tx{
+    padding: 20px;
+}
+.contact .all .add .tx h4{
+    padding-bottom:10px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.637);
+}
+.contact .all .add .tx p{
+    color: #00000080;
+}
+.contact .info input{
+    padding: 15px 9px;
+    padding-right: 230px;
+    margin-bottom: 35px;
+    border: 2px solid rgb(133, 133, 133);
+    border-radius: 5px;
+}
+.contact .info input:hover{
+    border: 2px solid rgb(46, 144, 255);
+}
+.contact .messegebox input{
+    padding: 10px 10px;
+    padding-bottom: 214px;
+    padding-right: 120px;
+    border-radius: 8px;
+    border: 2px solid rgb(112, 112, 112);
+}
+.contact .messegebox input:hover{
+    border: 2px solid rgb(46, 144, 255);
+}
+.send input{
+    padding: 13px 50px; 
+    margin: 50px;
+    position: relative;
+    left: 900px;
+    margin-top: 30px;
+    background-color: #35b2ff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid rgb(1, 86, 255);
+    border-radius: 5px;
+}
+.send input:hover{
+    background-color: white;
+    color: #35b2ff;
+    transition: all 0.3s ease-in;
+    border: 1px solid #35b2ff;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #04091E;
+    color: white;
+    position: absolute;
+}
+footer .foot{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+    
+}
+
+footer .foot h3{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+footer .foot p{
+    padding-bottom: 30px;
+    color: gray;
+}
+footer .foot input{
+    padding: 8px 40px;
+    font-size: 17px;
+}
+footer .foot .sent{
+    font-weight: bold;
+    background-color: #009dff;
+    color: #ffffff;
+    font-size: large;
+    outline: none;
+    border: none;
+    padding: 9px 15px;
+}
+footer .foot .sent:hover{
+    background-color: #ffffff;
+    color: #009dff;
+}
+footer .foot i{
+    font-size: 18px;
+    padding-right:10px;
+}
+footer .foot i:hover{
+    color: #009dff;
+}
+footer .foot a{
+    color: #009dff;
+    font-size: 20px;
+    padding: 10px;
+}
+@media ( max-width:768px)
+{
+  
+    html, body{
+        width: 148%;
+        overflow-x: hidden;
+    }
+
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 20%;
+        height: 55vh;
+        background: #00b3ff45;
+        top: 87px;
+        left: -200%;
+        transition: all ease-in-out 0.5s;
+        border: 1px solid ;
+        
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+        
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .section1 h1, .link {
+        width: 100%;
+        top: 32%;
+        left: 105%;
+    } 
+    .section1 .link{
+        top: 270px;
+        left: 550px;
+    }
+    .section1 h1{
+        font-size: 37px;
+    }
+
+    .send input{
+        left: 615px;
+    }
+
+    .contact .info input{
+        padding-right: 100px;
+
+    }
+    .contact .messegebox input{
+        width: 100%;
+        padding-bottom: 200px;
+        padding-right: 80px;
+        margin-left:30px;
+    }
+
+    footer{
+        width:220%;
+     }
+     footer .foot{
+        width: 90%;
+     }
+}

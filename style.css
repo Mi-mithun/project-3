@@ -158,6 +158,7 @@ header .nav ul li a:hover{
 }
 .section2 .text2 input:hover{
     box-shadow: 5px 10px 30px rgba(130,147,255,0.5);
+    transform: translate(40px, 50px);
 }
 .section3{
     height: 600px;
@@ -497,7 +498,6 @@ footer .foot a{
 .section1 .fist1 h3 {
     margin-top: 90px;
     }
-
     .section1 .fist1 h1{
         font-size: 30px;
     }
@@ -530,7 +530,7 @@ footer .foot a{
     .section2 .text2 input{
         padding: 7px;
     }
-    section3{
+    .section3{
         height: 100%;
         width: auto;
     }
